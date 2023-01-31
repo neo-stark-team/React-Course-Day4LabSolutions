@@ -2,15 +2,28 @@ Class Exercise Lab:
 
 Updated Life Cycle Hooks
 
-Generally react older version categorize the Components into two kinds 
-a. Class based stateful Components
-b. Stateless Functional Components
-
-But in latest versions, we have Hooks to access state from functional Components. One of the most common hook is useState.
-Let we convert the MyClassComponent into functional component. With this easier to build components and handle data.
+You have used React useState Hook. Now let we see about React useEffect.
+React useEffect is a function that gets executed for three components life Cycle
+1. componentDidMount
+2. componentDidUpdate
+3. componentWillUnmount
 
 Program:
+Create a functional component App that has constant message ="Hello dear one, learning React...?".
+Using useEffect change the message to "Great.... This is time to learn about HOOKS" after setting timeout 2000.
+And also add a console.log message to trace the useEffect calling.
 
+ useEffect(() => {
+    console.log('use effect hook called');
+
+    setTimeout(() => {
+      setMessage("Great.... This is time to learn about HOOKS");
+    }, 2000)
+  })
+
+  This above code will give the expected output. When you look the console output, the useEffect called more than twice.
+This kindof code leads to weird side-effects and have chances to freeze any app from an infinite loop.
+In order to avoid it, let we optimize the code little bit more. to avoid the repeated calling of useEffect.
 
 Lab Environment
 
