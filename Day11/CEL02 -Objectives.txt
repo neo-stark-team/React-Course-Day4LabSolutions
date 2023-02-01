@@ -1,22 +1,20 @@
 Class Exercise Lab:
 
-React Router
+React Router SPA
 
-React Router is a standard library for routing in React. 
-It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+Creating Single Page Application, SPA using react Router. Instead of loading entire pages, react renders the component into the container page.
+It is possible by using React Router in SPA.
 
 Program:
-Let we create a folder pages inside src folder in our reactapp project folder. There we an create 3 pages handled by the react router.
-1. HomePage
-2. AboutUs Page
-3. Users Page
+Create a Music World Single Page Application using react router.
+Create a NavBar.js component for title and the router options - Singers, Albums, Home.
+Three pages design in components folder within src folder.
+Use React Router and Link to connect the pages.
+Singers page display list of singers name and year.
+Albums page display list of albums name and singer.
+Home page be the landing page with welcome message.
 
-Router has three Link for three pages that has 
-/ to link HomePage component
-/about to link AboutUs component
-/users to link Users component
-
-To show the difference between three pages, design the page components with image tags.
+Styles you can use App.css for Navbar and List of Values.
 
 
 Lab Environment
