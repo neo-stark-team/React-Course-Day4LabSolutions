@@ -1,14 +1,23 @@
 Class Exercise Lab:
 
-React Projects DEMO App
+React Router
+
+React Router is a standard library for routing in React. 
+It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
 
 Program:
-This is sample react projects Demo App. 
-Emoji Search and copy the emoji by click and paste.
+Let we create a folder pages inside src folder in our reactapp project folder. There we an create 3 pages handled by the react router.
+1. HomePage
+2. AboutUs Page
+3. Users Page
 
-It is simple react application for react application demo app.
+Router has three Link for three pages that has 
+/ to link HomePage component
+/about to link AboutUs component
+/users to link Users component
 
-No testcases attached and required for this question.
+To show the difference between three pages, design the page components with image tags.
+
 
 Lab Environment
 
