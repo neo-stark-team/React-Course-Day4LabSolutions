@@ -1,0 +1,24 @@
+Question:
+ 
+Topic : Class Component Exercise - Class (Stateful) Components
+
+Question : 
+Build your own Button component with caption as "Button" concatenated with the count of button and render it three times. 
+
+If 3 Buttons are created the Button Captions should be 
+Button 1
+Button 2
+Button 3
+
+On user click, it should alert which button was clicked:
+
+Create a Seperate .js file for the Button Component which creates a button control on the page and pops a message 'Hey!!! You Clicked ' with the Button Text
+Maintain a counter in the Class Component and specify the caption with the help of it
+
+For Example : if the button with text 'Button 1' is clicked it should pop 'Hey!!! You Clicked Button 1' 
+
+and use it in your App.js file
+
+Using the Button Component create 3 buttons in App.js
+
+Note : Use Coding Standards and Best Practices in React.

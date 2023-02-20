@@ -1,0 +1,17 @@
+Question:
+
+Topic : Functional Component Exercise
+
+Question : 
+Build your own Button component and render it three times. 
+On user click, it should alert which button was clicked:
+
+Create a Seperate .js file for the Button Component which creates a button control on the page and pops a message 'Hey!!! You Clicked ' with the Button Text
+
+For Example : if the button with text 'Button 1' is clicked it should pop 'Hey!!! You Clicked Button 1' 
+
+and use it in your App.js file
+
+Using the Button Component create 3 buttons in App.js
+
+Note : Use Coding Standards and Best Practices in React.
