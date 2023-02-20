@@ -1,0 +1,8 @@
+Question 2
+Topic : Child – Parent Component Communication
+
+Create a page which has a button and a display tag (ex h1,h2, p or any ) when clicked on the button it should increment the displayed value by 100
+
+Create a functional child Component which passes a value 100 to the Parent Component 
+The Parent component should maintain the state of the value , increment it by the passed value from Child and display it
+
