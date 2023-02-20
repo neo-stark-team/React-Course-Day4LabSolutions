@@ -1,0 +1,18 @@
+Question:
+
+Topic : List
+
+Question : 
+Given an array:
+['C', 'C++', 'C#', 'Java', 'Rust', 'Go']
+Use the map function to render them in an unordered list:
+•	C
+•	C++
+•	C#
+•	Java
+•	Rust
+•	Go
+Create a Component DisplayList which renders the Unordered List with the  props 
+In this exercise, instead of manually and "imperatively" coding the render of each item in a list, use the map function to "declare" how React should render the list.
+Finally Inspect the code and check for errors in Console
+
